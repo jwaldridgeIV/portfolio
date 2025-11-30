@@ -1,11 +1,11 @@
 /* Document Styles */
 :root {
-  --accent: #527A86;
-  --background-header-footer: #F5E7E7;
-  --background-page: #FFFAFA;
+  --accent: #0C8843;
+  --background-header-footer: #C3E5F9;
+  --background-page: #FBFBEA;
   --button-text: #FFFAFA;
-  --text-dark: #55286F;
-  --text-light: #527A86;
+  --text-dark: #091D13;
+  --text-light: #13254A;
   --shadow: #BEC8C4;
 }
 
@@ -51,7 +51,7 @@ p {
 .work__projects,
 .work__title,
 .work__year {
-  font-family: 'Playfair Display', sans-serif;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .nav__menu-name{
@@ -86,7 +86,7 @@ p {
 .work__design,
 .work__work-experience,
 .work__work-experience-list {
-  font-family: 'Quicksand', serif;
+  font-family: 'Nunito', serif;
   font-size: 1.1rem;
 }
 
