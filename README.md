@@ -1,7 +1,7 @@
 # Portfolio
 A personal portfolio of my background and work experience, showcasing my research and technical skills in spatial and other digital software.
 
-<img src ="/img/headers/portfoliopov.svg" alt="" width="300px">
+<img src ="/img/header/portfoliopov.svg" alt="" width="300px">
 
 ## Technologies Utilized
 * HTML
