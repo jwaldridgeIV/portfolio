@@ -565,6 +565,25 @@ address > .social__items {
   margin-top: 0.5rem;
 }
 
+.bibliography {
+  max-width: 800px;   /* limits the width for readability */
+  margin: 0 auto;     /* centers the bibliography on the page */
+  padding: 2rem;
+  background-color: #FBFBEA; /* matches your page background */
+  color: #091D13;     /* dark text color */
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+}
+
+.bibliography p {
+  margin-bottom: 1rem;  /* spacing between entries */
+}
+
+.bibliography a {
+  color: #0C6936;       /* accent color for links */
+  text-decoration: underline;
+}
+
 
 
 /* Animations */
