@@ -467,6 +467,16 @@ address > .social__items {
   opacity: 0.85;
 }
 
+.project-image {
+  width: 100%;
+  max-width: 450px; /* adjust this size however you want */
+  height: auto;
+  border-radius: 10px;
+  display: block;
+  margin: 0 auto;
+}
+
+
 
 /* Animations */
 .nav__menu-item:before {
