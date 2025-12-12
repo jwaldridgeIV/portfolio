@@ -451,6 +451,22 @@ address > .social__items {
   box-shadow: 0 4px 10px var(--shadow);
 }
 
+.projects-container .project-button {
+  display: inline-block;
+  background-color: var(--accent);
+  color: var(--button-text) !important;
+  padding: 0.75rem 1.25rem;
+  border-radius: 8px;
+  font-weight: 600;
+  text-decoration: none;
+  text-align: center;
+  transition: opacity 0.2s ease;
+}
+
+.projects-container .project-button:hover {
+  opacity: 0.85;
+}
+
 
 /* Animations */
 .nav__menu-item:before {
