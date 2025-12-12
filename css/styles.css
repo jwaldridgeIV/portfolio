@@ -476,6 +476,11 @@ address > .social__items {
   margin: 0 auto;
 }
 
+.page-title {
+  text-align: center;
+  margin-top: 1rem;
+  margin-bottom: 0.5rem;
+}
 
 
 /* Animations */
