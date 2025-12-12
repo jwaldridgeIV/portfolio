@@ -482,6 +482,90 @@ address > .social__items {
   margin-bottom: 0.5rem;
 }
 
+.project-page {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2rem 1rem;
+}
+
+.project-page__title {
+  text-align: center;
+  color: var(--text-dark);
+  margin-bottom: 1.5rem;
+}
+
+.project-page__hero-image {
+  width: 100%;
+  max-width: 700px;
+  display: block;
+  margin: 0 auto 2rem auto;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px var(--shadow);
+}
+
+.project-page__content {
+  line-height: 1.7;
+  color: var(--text-dark);
+}
+
+.project-page__content h2 {
+  margin-top: 1rem;
+  color: var(--accent);
+}
+
+/* ----------------------------- */
+/* PROJECT PAGE (MULTIPLE IMAGES) */
+/* ----------------------------- */
+
+/* Main container for the project page */
+.project-page {
+  max-width: 800px;        /* readable text width */
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+/* Project title */
+.project-page__title {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  color: var(--text-dark);
+}
+
+/* Text blocks */
+.project-page__text {
+  margin-bottom: 2rem;
+  line-height: 1.7;
+  color: var(--text-light);
+  font-size: 1.1rem;
+}
+
+/* Gallery container */
+.project-gallery {
+  width: 100%;             /* let images break out of text width */
+  max-width: 100%;
+  margin: 2rem auto;
+}
+
+/* Individual project images */
+.gallery__image {
+  width: 100%;             /* fill gallery width */
+  max-width: 100%;         /* no artificial limit */
+  display: block;
+  margin: 1.5rem auto;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px var(--shadow);
+}
+
+/* Optional: description under each image */
+.gallery__caption {
+  text-align: center;
+  font-size: 0.9rem;
+  color: var(--text-light);
+  margin-top: 0.5rem;
+}
+
+
 
 /* Animations */
 .nav__menu-item:before {
