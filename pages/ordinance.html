@@ -46,8 +46,7 @@
         a census-like spatial account of everything inside Great Britian at the turn of the 19th century. 
         These projects were for GEOG 4080: Intro to GIS and HIST 4261: Working with Data, both attended at CU Denver.
         Data accessed via <a href="https://www.visionofbritain.org.uk/data/#tabgb1900" target="_blank" rel="noopener noreferrer">
-        A Vision of Britain through Time, 2018
-        </a>.
+        A Vision of Britain through Time, 2018</a>.
       </p>
     </section>
 
@@ -62,7 +61,7 @@
     <section class="project-page__content">
       <h3>Digging into the British Ordinance Survey of 1888-1914 with Python</h3>
 
-      <h3>Introduction</h3>
+      <h1>Introduction</h1>
       <p>
         In the late 19th century, technological and economic progress came to a head with what historians today call "the Second Industrial Revolution," a time period of 
         large industrial growth spurred on by new manufacturing techniques such as the Bessemer process and the telegraph. One technique that drove this new evolution was the 
@@ -74,7 +73,7 @@
       </p>
 
       <img 
-        src="../img/work/london-1.jpeg" 
+        src="../img/work/uk-image-1.jpeg" 
         alt="Industrial London" 
         class="gallery__image"
       >
@@ -89,12 +88,12 @@
         will show the geographic distribution of industrialzation on the island of Great Britain. The goal is to paint a picture of how the land was changed, as well as where
         it was changed, to try and answer larger questions on historical urban development and effective land use.
 
-        <a href="https://www.visionofbritain.org.uk/data/#tabgb1900" target="_blank" rel="noopener noreferrer"> Link to original dataset.
-        </a>. Please note dataset utilized for project is the second download link on page, as it has been cleaned and processed, 
+        <a href="https://www.visionofbritain.org.uk/data/#tabgb1900" target="_blank" rel="noopener noreferrer"> Link to original dataset</a>. 
+        Please note dataset utilized for project is the second download link on page, as it has been cleaned and processed, 
         titled COMPLETE GB1900 GAZETTEER.
       </p>
 
-      <h3>Methodology</h3>
+      <h1>Methodology</h1>
       <p>
         In today's world, the Ordnance Survey is an agency within the UK's Department for Science, Information, and Techonology, but historically, 
         the work was collected by the government through the military. This fact, combined with the bloody origin story, tell a story that focus 
@@ -140,7 +139,7 @@
 
       <p class="gallery__caption"><i>Chart showing most frequent entries for type of building or feature.</i></p>
 
-      <h3>Analysis</h3>
+      <h1>Analysis</h1>
       <p>
         As this project aims to explore geographic data, I am going to do the bulk of the analysis section using maps created by Folium, a program within 
         python that creates interactive maps from datasets. Exploring geographic data can reveal larger trends that are noticable visually, as well as 
@@ -183,26 +182,99 @@
       <p class="gallery__caption"><i>Heatmap of Manchester, UK showing most frequent entries for type of building or feature, filtered for industrial use only.</i></p>
 
       <p>
-        Denver has achieved substantial infrastructure growth over 32 years, expanding from 180 to 850 miles, and has demonstrated sustained planning commitment through multiple master plans and the initiative of Vision Zero. Meanwhile, safety and usage goals from 1993 remain largely unmet, with the main challenge being that the 1 mile grid concept was never fully explored. The result has been a fragmented network with “bikeways to nowhere” rather than the comprehensive system originally planned.
-        The recent cyclist deaths in early 2025 underscore continued urgency. Achieving the Vision Zero 2030 goal requires addressing fundamental connectivity gaps rather than simply building more miles in isolation. The grid concept from ‘93 remains relevant to this day because it focused on connecting the network up in ways that benefited all users. A truly connected system throughout Denver could finally deliver on the safety, climate, and livability goals that have guided the city’s blossoming into a global city. The question is whether Denver will learn from the previous three decades, or continue the pattern that has not produced the results we are striving toward.
+        On the other hand, this bar graph below shows the top results from the name column, while looking at the same data (just data in and near Greater Manchester).
+        This helps us get a good idea of what the most popular type of industrial building was, and can explain why Manchester is so over represented on the first 
+        heatmap. Compared to the large cities during feudalism, where a prime location was on a large, navigable river in the center of a fertile heartland, the shift
+        to industrialization put a focus on coal deposits and a larger quantity of smaller, faster moving streams to power a variety of buildings, most prominently, 
+        mills. (For my fellow Gen Zers, a mill refers to any place where a product gets broken down by different methods. These came in lots of different varieties, 
+        ranging from flour mills, textile mills, iron and steel mills, paper mills, and more.) It just so happens that the English Midlands are full of this type of geography.
       </p>
 
-      <h3>Bibliography</h3>
+
+      <img 
+        src="../img/work/uk-chart-2.jpeg" 
+        alt="Chart showing top 25 industrial features from dataset in Manchester." 
+        class="gallery__image"
+      >
+
+      <p class="gallery__caption"><i>Bar Chart of 25 most prevalent industrial site types in Greater Manchester.</i></p>
+
+      <p>
+        Now, lets zoom back out and look at all of Great Britain once again. The heatmap created earlier was specifically designed to overemphasize the role of 
+        Manchester, a map that is accurate in its data, but could mislead a viewer. The heatmap aspect utilized in the previous maps does a decent job showing the 
+        spatial relationship present within data, however I knew that a better map could be made, keeping the focus on Manchester and it's surroundings, but also 
+        showing the true impact of the rest of the English towns. This relate back to our readings earlier in the semester, focusing around data visualization. It 
+        is one thing to know how to manipulate and analyze data, but making it into an effective visual element is a whole different skillset, and one I hope to master.
+      </p>
+
+      <img 
+        src="../img/work/uk-map-3.jpeg" 
+        alt="Map showing Industrial Site Density." 
+        class="gallery__image"
+      >
+
+      <p class="gallery__caption"><i>Dot Density map showing density of Industrial sites. (0.1 degree grid, 5 levels)</i></p>
+
+      <h1>Britian's Coastal Shipping</h1>
+      <p>
+        This map still shows the impact of Manchester, but does a better job at showing how much impact the rest of the country still had on the industrial 
+        revolution. Most importantly, many coastal communities, small and large, show up on this map, hinting towards an industrial economy reliant on the 
+        ocean. In the work authored by Dr. Leigh Shaw-Taylor et al., it is noted that "the coastal trade was extensive, and made up the majority of ton miles 
+        in the important coal trade up to the late nineteenth century." This does not even mention the international trade that was powering the whole 
+        industrial engine, with tons and tons of raw materials coming in from British colonial possesions, such as cotton and wool, metals, lumber, and more, 
+        all to supply the growing manufacturing sector. Since many of these products were imported on ships, the best economic move was to place all of the 
+        manufactories near the coast, lowering transport costs in and out of the production zone. Coastal access was so critical that in at least one famous 
+        case, industrialists reshaped geography to obtain it. The Manchester Ship Canal, opened in 1894, is an artificial waterway 36 miles from the Mersey 
+        estuary going to inland Manchester, allowing that city to become accessible to large ocean-going vessels, despite being 40 miles from the sea.
+      </p>
+
+      <img 
+        src="../img/work/uk-chart-3.jpeg" 
+        alt="Chart showing top 5 counties by industrial site count." 
+        class="gallery__image"
+      >
+
+      <p class="gallery__caption"><i>Bar Chart of the 5 counties with the most industrial sites.</i></p>
+
+      <h1>Conclusion</h1>
+      <p>
+        The time frame in which this data was collected might have been the golden age of the English Midlands, as further transportation innovations shifted 
+        the economic power back toward London post WWI, and that divide has only deepened in the following decades. Despite economic growth over this time, 
+        certain areas have not equally benefited from redevelopment. The city faces issues like affordable housing shortages, with over 15,000 applicants on 
+        the social housing waiting list. This is not all, as the legacy of industrial pollution continues to affect Manchester. Air quality remains a concern, 
+        with fine particulate matter levels often exceeding health guidelines, showing how our past can still have outsized influence in our lives today. 
+        However, this story has a good ending, as former industrial districts like Ancoats and Castlefield have undergone significant urban renewal. Ancoats, 
+        once dubbed "the world's first industrial suburb," has been revitalized into a vibrant area featuring residential spaces, eateries, and cultural venues,
+        while preserving much of its historical manufacturing architecture. As for how Manchester looks today? The city has shifted from traditional manufacturing to 
+        sectors such as digital technology, finance, and creative industries. This diversification has spurred job creation and attracted investment, contributing to 
+        Manchester's economic resilience, all while adding to the story of the world's first industrial city.
+      </p>
+
+      <img 
+        src="../img/work/uk-image-2.jpeg" 
+        alt="Factories polluting the air, land, and water." 
+        class="gallery__image"
+      >
+
+      <p class="gallery__caption"><i>Factories polluting the air, land, and water.</i></p>
+      <p>
+        In 2008, a trend opposite of the one observed in this project was forcing many English to relocate, specifically out of the English Midlands, 
+        and towards the centralized metropolis of London. As a result of this demographic shift southward, journalist Tim Leunig noted that "There’s no 
+        altering geography, and some of our towns just aren’t in the right place any more." I am sure many in the late 1800s thought the same of their towns 
+        being influenced by industrial trends changing their landscape in front of their own eyes.
+      </p>
+      
+      <h1>Bibliography</h1>
+
+      <p>The associated GitHub repository for this project can be accessed by clicking <a href="https://github.com/jwaldridgeIV/mapping-ordinance-survey" target="_blank" rel="noopener noreferrer">
+        here!</a>.</p>
         <div class="bibliography">
-          <p>Bike Commute Share Increases in Denver, State. Front Range Cycle, November 30, 2017. <a href="https://frontrangecycle.com/2017/11/30/bike-commute-share-increases-denver-state/" target="_blank" rel="noopener noreferrer">Link</a>.</p>
-          <p>"Biking in Denver." Denver.org. <a href="https://www.denver.org/blog/post/biking-in-denver/" target="_blank" rel="noopener noreferrer">Link</a>.</p>
-          <p>City and County of Denver. Denver Bicycle Master Plan. Denver: Department of Public Works, 1993.</p>
-          <p>City and County of Denver. Denver Bicycle Master Plan. Denver: Department of Public Works, 2001. <a href="https://nacto.org/wp-content/uploads/Denver-Bicycle-Master-Plan-2001.pdf" target="_blank" rel="noopener noreferrer">Link</a>.</p>
-          <p>City and County of Denver. "Vision Zero." Denver.gov. <a href="https://denvergov.org/Government/Citywide-Programs-and-Initiatives/Vision-Zero" target="_blank" rel="noopener noreferrer">Link</a>.</p>
-          <p>"Denver Bicycle Accident Statistics." Colorado Injury Law. <a href="https://www.coloradoinjurylaw.com/denver-bicycle-accident-statistics.html" target="_blank" rel="noopener noreferrer">Link</a>.</p>
-          <p>"Denver Bike Lanes 2024: City Proposes Biggest Expansion Ever." Denverite, August 19, 2024. <a href="https://denverite.com/2024/08/19/denver-bike-lane-expansion-2024/" target="_blank" rel="noopener noreferrer">Link</a>.</p>
-          <p>"Denver Bikeway Map." Denver Department of Transportation and Infrastructure. <a href="https://www.denvergov.org/files/assets/public/doti/documents/bikeway-map.pdf" target="_blank" rel="noopener noreferrer">Link</a>.</p>
-          <p>"Denver on Track to Meet 125-Mile Bike Lane Goal by End of Year." Colorado Public Radio, August 7, 2023. <a href="https://www.cpr.org/2023/08/07/denver-bike-lanes-goal/" target="_blank" rel="noopener noreferrer">Link</a>.</p>
-          <p>"Denver Wants to End Traffic-Related Deaths by 2030. Here's What That Will Take." Denver Post, October 6, 2017. <a href="https://www.denverpost.com/2017/10/06/denver-wants-to-end-traffic-related-deaths-by-2030/" target="_blank" rel="noopener noreferrer">Link</a>.</p>
-          <p>League of American Bicyclists. "Where We Ride: Bicycle Commuting Data." BikeLeague.org. <a href="https://www.bikeleague.org/content/cities" target="_blank" rel="noopener noreferrer">Link</a>.</p>
-          <p>Lusk, Anne C., Patrick G. Furth, Patrick Morency, Luis F. Miranda-Moreno, Walter C. Willett, and Jack T. Dennerlein. "Risk of Injury for Bicycling on Cycle Tracks versus in the Street." Transportation Research Record: Journal of the Transportation Research Board 2520 (2011): 126-135. <a href="https://doi.org/10.3141/2520-15" target="_blank" rel="noopener noreferrer">Link</a>.</p>
-          <p>"Police Seek Leads on Hit-and-Run Crash That Killed Cyclist in NW Denver." Denver7, February 5, 2025. <a href="https://www.denver7.com/news/local-news/police-seek-leads-on-hit-and-run-crash-that-killed-cyclist-in-nw-denver" target="_blank" rel="noopener noreferrer">Link</a>.</p>
-          <p>Schelly, Jeremy. "Hit-and-Run Crash Kills Bicyclist in Denver." 9News, January 14, 2025. <a href="https://www.9news.com/article/news/crime/hit-and-run-bicycle-14th-yates/73-ee6b244" target="_blank" rel="noopener noreferrer">Link</a>.</p>
+          <p>Clifton, Katy. 2018. “Historic Black and White Images Show Iconic London Landmarks in the Early 1900s.” London Evening Standard, September 15, 2018. <a href="https://www.standard.co.uk/news/london/stunning-images-show-iconic-london-landmarks-through-the-1900s-a3930331.html" target="_blank" rel="noopener noreferrer">Link</a>.</p>
+          <p>A Vision of Britain through Time. 2018. “Data: Great Britain 1900.” University of Portsmouth/Great Britain Historical GIS Project. <a href="https://www.visionofbritain.org.uk/data/#tabgb1900" target="_blank" rel="noopener noreferrer">Link</a>.</p>
+          <p>Davenport, Romola. 2024. “The First Urban Society.” Top of the Campops: 60 Things You Didn’t Know about Family, Marriage, Work, and Death Since the Middle Ages. The Cambridge Group for the History of Population and Social Structure, October 31, 2024. <a href="https://www.campop.geog.cam.ac.uk/blog/2024/10/31/urban-society/" target="_blank" rel="noopener noreferrer">Link</a>.</p>
+          <p>Hatton, Tim. 2017. “Air Pollution in Victorian-Era Britain—Its Effects on Health Now Revealed.” The Conversation, November 14, 2017.<a href="https://theconversation.com/air-pollution-in-victorian-era-britain-its-effects-on-health-now-revealed-87208" target="_blank" rel="noopener noreferrer">Link</a>.</p>
+          <p>The Cambridge Group for the History of Population and Social Structure. 2016. “Coal Prices and Trading Costs.” In Transport, Urbanization and Economic Development in England and Wales c.1670–1911. Page last updated May 24, 2016.<a href="https://www.campop.geog.cam.ac.uk/research/projects/transport/futureplans/coalprices.html" target="_blank" rel="noopener noreferrer">Link</a>.</p>
+          <p>The Editors of Encyclopaedia Britannica. 1998. “Manchester Ship Canal.” Encyclopaedia Britannica, July 20, 1998. <a href="https://www.britannica.com/topic/Manchester-Ship-Canal" target="_blank" rel="noopener noreferrer">Link</a>.</p>
         </div>
 
     </section>
